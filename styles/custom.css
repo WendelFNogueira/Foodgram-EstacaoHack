@@ -1,0 +1,39 @@
+body {
+  background: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo {
+  width: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: rgb(240, 10, 10);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.post {
+  border: gray solid 1px;
+  padding: 10px;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.post img {
+  width: 400px;
+}
