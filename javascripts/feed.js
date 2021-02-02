@@ -17,5 +17,16 @@ async function exibirPosts() {
     );
   }
 }
+function exibirNome() {
+  const spanNome = document.querySelector("#nome");
+
+  if (location.pathname === "/") {
+    return;
+  }
+  if (sessionStorage.getItem("nomeUsuario")) {
+    spanNome.textContent = sessionStorage.getItem("nomeUsuario");
+  }
+}
 
 exibirPosts();
+exibirNome();
