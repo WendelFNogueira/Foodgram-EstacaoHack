@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodGram</title>
+    <link rel="icon" href="/images/pizza2.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
@@ -12,13 +13,16 @@
 
 <body>
     <main id="feed">
-        <header>
-            <img class="logo" src="images/logo.png" alt="">
+        <header id=header>
+            <a href="/feed.html">
+                <img class="logo" src="images/logo.png" alt="">
+            </a>
             <div>
-                Olá Seja, <span id="nome">Aluno</span>
+                Olá, <span id="nome">Aluno</span>. Seja Bem-Vindo!
             </div>
+            <a href="/feed.html"><img id="hover" src="/images/hover.png" alt="Página Inicial"></a>
             <a class="button" href="cadastro-de-foto.html">Cadastrar Nova Foto</a>
-            <button><img src="images/shutdown.svg" alt="" srcset=""></button>
+            <button><a href="/index.html"><img src="images/shutdown.svg" alt="" srcset=""></button></a>
         </header>
         <section id="register">
             <h1>Envie sua foto =)</h1>
