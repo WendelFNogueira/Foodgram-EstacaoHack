@@ -7,7 +7,7 @@ function login() {
     return alert("Digite um nome primeiro!");
   }
   sessionStorage.setItem("nomeUsuario", inputLogin.value);
-  window.location.href = "/feed.html";
+  window.location.href = "./feed.html";
 }
 
 botaoLogin.addEventListener("click", login);

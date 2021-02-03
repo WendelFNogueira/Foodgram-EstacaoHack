@@ -1,0 +1,271 @@
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #logo {
+      width: 165px;
+      text-align: center;
+      margin: 1vh auto;
+      padding: 5px;
+      top: 9.5vh;
+    }
+  
+    header {
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid rgb(231, 231, 231);
+      border-bottom: 1px solid rgb(231, 231, 231);
+      position: fixed;
+      width: 100%;
+      height: 10%;
+      top: 0px;
+      left: 0vw;
+    }
+  
+    header div{
+      margin: 1px auto;
+      position: absolute;
+      top: 6.5vh;
+      left: clamp(2vw, 15%, 30vw);
+      width: 80vw;
+      align-items: center;
+    }
+  
+    #menu{
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid rgb(231, 231, 231);
+      border-bottom: 1px solid rgb(231, 231, 231);
+      position: fixed;
+      margin-top: 85vh;
+      height: 15%;
+      width: 100%;
+      left: 0vw;
+  }
+  
+    #hover{
+      width: 8vw;
+      height: 5vh;
+      padding: 12vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 7.5vh;
+      transition: background 200ms;
+    
+    }
+  
+    .cadastrar{
+      background: #e02041;
+      border: 0;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: bold;
+      padding: 7px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      margin-bottom: 7.5vh;
+      right: 13%;
+  
+      transition: background 200ms;
+    }
+  
+    .cadastrar:hover{
+      background: #ed2b5b;
+    }
+    
+    header a {
+      color: black;
+      text-decoration: none;
+    }
+    
+    header button {
+      height: 30px;
+      width: 30px;
+      margin-top: 1.3vh;
+      border-radius: 4px;
+      margin-left: 25px;
+      position: absolute;
+      left: 78.6%;
+      border: 1px solid #dcdce6;
+      background: transparent;
+      transition: background 200ms;
+      transition: border-color 0.2s;
+      cursor: pointer;
+    }
+  
+    button:hover{
+      background: #dedfe3;
+    }
+
+  /* inicio página de registro */
+
+  #register {
+    border-radius: 4px;
+    background: #fff;
+    padding-top: 20vh;
+  }
+
+  #register a {
+    color: black;
+    text-decoration: none;
+    margin-top: 5vh;
+  }
+
+  #register a:hover {
+    color: #e02041;
+  }
+  
+  .button {
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 3vh;
+  }
+
+  .button:hover{
+    background: #ed2b5b;
+  }
+
+  footer p{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 37.6vh;
+    font-style: italic;
+    align-items: center;
+    font-size: clamp(0.5rem, 1rem, 1.5rem);
+  }
+  
+  @media (min-width: 760px){
+
+    #feed {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    header {
+      background: #fff;
+      display: flex;
+      padding: 3vh;
+      margin-top: -7vh;
+      justify-content: space-between;
+      border-top: 1px solid rgb(231, 231, 231);
+      border-bottom: 1px solid rgb(231, 231, 231);
+      position: fixed;
+      width: 100%;
+    }
+  
+    #logo {
+      width: 235px;
+      display: flex;
+      position: absolute;
+      left: 16vw;
+      top: 35%;
+    }
+    
+    header div{
+      margin-top: 25px;
+      position: absolute;
+      left: 43.5vw;
+      font-size: 1.2vw;
+    }
+  
+    #menu{
+      background: initial;
+      display: initial;
+      justify-content: initial;
+      border-top: initial;
+      border-bottom: initial;
+      position: initial;
+      margin-top: initial;
+      height: initial;
+      width: initial;
+      left: initial;
+    }
+    
+    #hover{
+      width: 30px;
+      height: 33px;
+      padding: 1.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5.6vh;
+      margin-left: 22vw;
+    
+    }
+    
+    .cadastrar{
+      background: #e02041;
+      border: 0;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      top: 50%;
+      right: 13vw;
+    }
+    
+    header a {
+      margin-left: auto;
+      color: black;
+      text-decoration: none;
+    }
+    
+    header button {
+      height: 40px;
+      width: 40px;
+      margin-top: 5vh;
+      border-radius: 4px;
+      margin-left: 4vw;
+      position: absolute;
+      left: 85%;
+      border: 1px solid #dcdce6;
+      background: transparent;
+      transition: border-color 0.2s;
+      cursor: pointer;
+    }
+    
+     /* inicio página de registro */
+    #register {
+      border-radius: 4px;
+      background: #fff;
+      padding-top: 30vh;
+    
+    }
+    
+    #register a {
+      color: black;
+      text-decoration: none;
+    }
+
+    #register a:hover {
+      color: #e02041;
+    }
+
+    .button {
+      background: #e02041;
+      border: 0;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+    }
+  
+    footer{
+          font-size: 1.4rem;
+          line-height: .80;
+          width: clamp(26rem, 28vw, 32rem);
+      }
+  }
+  
